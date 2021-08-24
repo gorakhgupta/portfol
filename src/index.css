@@ -47,28 +47,26 @@ margin:0;
   margin-bottom: 20px;
 }
 
-.contact{
-  height: 100vh;
-}
+
 
 @media (min-width:832px)
 {
   .contact{
-    height: 100vh;
+    height:fit-content;
   }
   .skills{
-    height: 100vh;
+    height:fit-content;
   
    }
    .about{
-     height: 100vh;
+     height:fit-content;
    }
   .mypic{
     display: flex;
   }
   .homepage{
     display: flex;
-    height:100vh;
+    height:fit-content;
   }
   .mypic img{
     width:400px;
@@ -125,26 +123,31 @@ margin:0;
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover {background-color: black; color:red;}
 #dp:hover {background-color: yellowgreen;}
-
+.skills{
+  height:fit-content;
+}
+.contact{
+  height: fit-content;
+}
 @media(max-width:1068px)
 {
   .skills{
-    height: 100vh;
+    height:fit-content;
   
    }
    .contact{
-     height: 100vh;
-   }
+    height:fit-content;
+  }
   .mypic{
     display: flex;
     flex-direction: column;
   
   }
   .about{
-    height: 100vh;
+    height:fit-content;
   }
   .homepage{
-    height: 100vh;
+    height:fit-content;
   }
 
 
