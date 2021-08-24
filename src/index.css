@@ -21,13 +21,14 @@
   margin: 0;
   
 }
+.home{
+  height: 100vh;
+}
 
 ::-webkit-scrollbar {
   display: none;
 }
-.homepage {
-  background-color: black;
-}
+
 .about{
   padding: 0;
 
@@ -82,10 +83,7 @@ margin:0;
   .mypic{
     display: flex;
   }
-  .homepage{
-    display: flex;
-    height:100vh;
-  }
+
   .mypic img{
     width:400px;
     float: right;
@@ -166,9 +164,7 @@ margin:0;
   .about{
     height:fit-content;
   }
-  .homepage{
-    height:100vh;
-  }
+ 
 
 h1{
   line-height: 2px;

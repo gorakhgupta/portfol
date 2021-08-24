@@ -9,36 +9,27 @@ import mypic from './mypic.png';
 function Home() {
   return (
 <>
-<div className="row ">
-  <div className="col-12 mx-auto">
-  <div className ="homepage p-0">
-
-<div className="mypic">
-<div className="intro p-0">
-<h1 className=" name_tag pt-4">Hi,  This is <b>Gorakh.</b></h1>
-<h1 className="Job name_tag" style={{color:'red'}}><strong  style={{color:'red'}}>MERN STACK Developer.</strong></h1>
-<div>
-  {/* <button href="https://google.com" className="btn btn-outline-danger border-1" >Know More</button>
-   */}
-  <div className="row">
-    <div className="col-6 mx-auto">
-    <NavLink className="know_more" to="/about"><button  className=" btn btn-outline-danger">Know More</button></NavLink>
-    </div>
-  </div>
-</div>
-
-</div>
-<img src={mypic}  className="pt-2" />
-
-</div>
-
-
-</div>
-
-  </div>
-</div>
-
-
+<div className="home pt-4">
+   <div className="row">
+       <div className="col-md-8 mx-auto">
+           <div className="row">
+               <div className="col-md-6 mx-auto">
+           {/* //Left */}
+       <div className="head mt-5">
+         <h1>Hi, This is Gorakh .  <br /> <span style={{color:'red'}}>MERN  STACK  DEVELOPER .</span> </h1>
+       </div>
+ 
+         </div>
+         <div className="col-md-6 mx-auto mt-3">
+           {/* Right */}
+     
+ <img style={{width:'350px',height:'400px'}} src={mypic} alt="" />
+ 
+         </div>
+        </div>
+        </div>
+        </div>
+        </div>
 </>
   );
 }

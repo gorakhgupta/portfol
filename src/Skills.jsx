@@ -12,7 +12,7 @@ const Skills = () => {
                <div className="heading">
            <h1>Here is My Top Skills 📝</h1>
        </div>
-         <div className="langauge">
+         <div className="langauge pt-4">
 
     <ul>
         <li><h4> Familiar Programming Language </h4></li>
