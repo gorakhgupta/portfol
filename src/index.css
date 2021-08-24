@@ -42,6 +42,7 @@ body{
 flex-direction: column;
 height: 100vh;
 padding: 0;
+
 margin:0;
 -ms-overflow-style:none;
 
@@ -76,6 +77,9 @@ margin:0;
   .skills{
     height:fit-content;
   
+   }
+   .home{
+     height: 100vh;
    }
    .about{
      height:fit-content;
@@ -147,6 +151,7 @@ margin:0;
 }
 .home{
   background-color: black;
+  height: 100vh;
 }
 @media(max-width:1068px)
 {

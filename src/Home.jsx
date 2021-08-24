@@ -16,7 +16,7 @@ function Home() {
                <div className="col-md-6 mx-auto">
            {/* //Left */}
        <div className="head mt-5">
-         <h1><span style={{color:'red'}}>MERN  STACK  DEVELOPER .</span> </h1>
+         <h1> Hi, This is Gorakh . <span style={{color:'red'}}>MERN  STACK  DEVELOPER .</span> </h1>
        </div>
  
          </div>
