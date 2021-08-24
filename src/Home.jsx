@@ -13,7 +13,7 @@ function Home() {
   <div className="col-12 mx-auto">
   <div className ="homepage p-0">
 
-<div className="mypic ">
+<div className="mypic">
 <div className="intro p-0">
 <h1 className=" name_tag pt-4">Hi,  This is <b>Gorakh.</b></h1>
 <h1 className="Job name_tag" style={{color:'red'}}><strong  style={{color:'red'}}>MERN STACK Developer.</strong></h1>
