@@ -66,7 +66,7 @@ margin:0;
   }
   .homepage{
     display: flex;
-    height:fit-content;
+    height:100vh;
   }
   .mypic img{
     width:400px;
@@ -147,7 +147,7 @@ margin:0;
     height:fit-content;
   }
   .homepage{
-    height:fit-content;
+    height:100vh;
   }
 
 
