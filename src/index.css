@@ -145,6 +145,9 @@ margin:0;
 .contact{
   height: fit-content;
 }
+.home{
+  background-color: black;
+}
 @media(max-width:1068px)
 {
   .skills{
@@ -163,6 +166,10 @@ margin:0;
   }
   .about{
     height:fit-content;
+  }
+  .home{
+    height: fit-content;
+
   }
  
 

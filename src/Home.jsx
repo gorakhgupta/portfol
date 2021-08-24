@@ -16,14 +16,14 @@ function Home() {
                <div className="col-md-6 mx-auto">
            {/* //Left */}
        <div className="head mt-5">
-         <h1>Hi, This is Gorakh .  <br /> <span style={{color:'red'}}>MERN  STACK  DEVELOPER .</span> </h1>
+         <h1><span style={{color:'red'}}>MERN  STACK  DEVELOPER .</span> </h1>
        </div>
  
          </div>
          <div className="col-md-6 mx-auto mt-3">
            {/* Right */}
      
- <img style={{width:'350px',height:'400px'}} src={mypic} alt="" />
+ <img  style={{width:'350px',height:'400px'}} src={mypic} alt="" />
  
          </div>
         </div>
