@@ -2,7 +2,10 @@ import logo from './logo.svg';
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import mypic from './mypic.png';
+
 function Home() {
   return (
 <>
@@ -18,8 +21,10 @@ function Home() {
 </div>
 
 </div>
-<img src={mypic}  className="pt-3" />
+<img src={mypic}  className="pt-2" />
+
 </div>
+
 </div>
 
 </>

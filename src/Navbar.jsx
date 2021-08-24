@@ -28,6 +28,9 @@ function Navbar() {
         <li className="nav-item">
           <NavLink className="nav-link"  id="g" to="/about">About</NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink className="nav-link"  id="g" to="/skills">Skills</NavLink>
+        </li>
         <li className="nav-item dropdown" id="g">
           <NavLink className="nav-link dropdown-toggle dropdown"   to="/project" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Project

@@ -8,6 +8,7 @@ import About from './About';
 import Contact from './Contact';
 import Project from './Project';
 import Footer from './Footer';
+import Skills from './Skills';
 // import bg from './bg.jfif';
 // import './index.css';
 
@@ -20,6 +21,7 @@ function App() {
     <Route exact path ="/about" component={About}></Route>
     <Route exact path ="/contact" component={Contact}><Contact/></Route>
     <Route exact path ="/project" component={Project}><Project/></Route>
+    <Route exact path ="/skills" component={Skills}><Skills/></Route>
     <Route component={Home}></Route>
 
 
