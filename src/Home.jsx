@@ -15,7 +15,7 @@ function Home() {
            <div className="row">
                <div className="col-md-6 mx-auto">
            {/* //Left */}
-       <div className="head mt-5">
+       <div className="head mt-3">
          <h1> Hi, This is Gorakh . <span style={{color:'red'}}>MERN  STACK  DEVELOPER .</span> </h1>
        </div>
  
@@ -23,7 +23,7 @@ function Home() {
          <div className="col-md-6 mx-auto mt-3">
            {/* Right */}
      
- <img  style={{width:'350px',height:'400px'}} src={mypic} alt="" />
+ <img className="img" style={{width:'350px',height:'400px'}} src={mypic} alt="" />
  
          </div>
         </div>

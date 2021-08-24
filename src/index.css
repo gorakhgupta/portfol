@@ -173,15 +173,11 @@ margin:0;
     height:fit-content;
   }
   .home{
-    height: fit-content;
+    height: 100vh;
 
   }
  
 
-h1{
-  line-height: 2px;
-  letter-spacing: 1.5px;
-}
   .name_tag{
     margin: 30px;
     text-align: center;
