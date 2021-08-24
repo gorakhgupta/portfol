@@ -35,7 +35,7 @@
   background-color: black;
 }
 body{
-  background-color: #000000;
+  background-color: #e6dada;
   /* background-color:black; */
   display: flex;
 flex-direction: column;
@@ -171,8 +171,8 @@ margin:0;
   }
 
 h1{
-  line-height: 3px;
-  letter-spacing: 2.5px;
+  line-height: 2px;
+  letter-spacing: 1.5px;
 }
   .name_tag{
     margin: 30px;

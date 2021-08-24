@@ -9,7 +9,7 @@ import mypic from './mypic.png';
 function Home() {
   return (
 <>
-<div className="row">
+<div className="row ">
   <div className="col-12 mx-auto">
   <div className ="homepage p-0">
 

@@ -10,7 +10,7 @@ import EmailIcon from '@material-ui/icons/Email';
 function Contact() {
   return (
 <>
-<section className="mb-0 contact">
+<section className="mb-0 contact pt-4">
 <h1 className="text-center mt-0">CONTACT US</h1>
 <div className="row mt-5">
 

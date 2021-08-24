@@ -4,7 +4,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 const Skills = () => {
     return (
-        <div className="skills">
+        <div className="skills pt-4">
    <div className="row">
        <div className="col-md-8 mx-auto">
            <div className="row">

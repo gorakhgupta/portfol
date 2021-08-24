@@ -9,7 +9,7 @@ import bg from './bg.jfif';
 function About() {
   return (
 <>
-<div className="about mt-0">
+<div className="about pt-4">
 <div className="row">
 <div className="col-md-8 mx-auto">
 <h2 style={{color:'white'}}>Hello Guys,This is Gorakh kumar Gupta 🙂. <br /><b> I am doing B. Tech <span style={{color:'red'}}>Computer science engineering </span>, currently in <span style={{color:'yellow'}}>3rd Year from IIIT RANCHI</span></b>
