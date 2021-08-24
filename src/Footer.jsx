@@ -10,9 +10,11 @@ import CopyrightIcon from '@material-ui/icons/Copyright';
 function Footer() {
   return (
 <>
-<footer className="footer" style={{backgroundColor:'red'}}>
+
+<footer className="footer">
 <p>©️ 2021 Copyright | Portfolio</p>
   </footer>
+
 </>
   );
 }

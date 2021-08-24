@@ -10,9 +10,9 @@ import EmailIcon from '@material-ui/icons/Email';
 function Contact() {
   return (
 <>
-<section className="mb-4 contact">
-<h1 className="text-center mt-3">CONTACT US</h1>
-<div className="row">
+<section className="mb-0 contact">
+<h1 className="text-center mt-0">CONTACT US</h1>
+<div className="row mt-5">
 
 <div className="col-md-9 mb-md-0 mb-5">
 <form id="contact-form" name="contact-form" action="mail.php" method="POST">

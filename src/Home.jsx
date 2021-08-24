@@ -9,15 +9,22 @@ import mypic from './mypic.png';
 function Home() {
   return (
 <>
-<div className ="homepage">
+<div className="row">
+  <div className="col-12 mx-auto">
+  <div className ="homepage p-0">
+
 <div className="mypic ">
 <div className="intro p-0">
-<h1 className=" name_tag pt-4">Hi,This is <b>Gorakh</b></h1>
-<h1 className="Job name_tag" style={{color:'red'}}><strong  style={{color:'red'}}>Web Developer.</strong></h1>
+<h1 className=" name_tag pt-4">Hi,  This is <b>Gorakh.</b></h1>
+<h1 className="Job name_tag" style={{color:'red'}}><strong  style={{color:'red'}}>MERN STACK Developer.</strong></h1>
 <div>
   {/* <button href="https://google.com" className="btn btn-outline-danger border-1" >Know More</button>
    */}
-   <NavLink className="know_more" to="/about"><button  className=" btn btn-outline-danger">Know More</button></NavLink>
+  <div className="row">
+    <div className="col-6 mx-auto">
+    <NavLink className="know_more" to="/about"><button  className=" btn btn-outline-danger">Know More</button></NavLink>
+    </div>
+  </div>
 </div>
 
 </div>
@@ -25,7 +32,12 @@ function Home() {
 
 </div>
 
+
 </div>
+
+  </div>
+</div>
+
 
 </>
   );

@@ -11,7 +11,7 @@ function Navbar() {
   return (
 <>
 {/* <h1>NavBar</h1> */}
-<nav className="navbar navbar-expand-lg navbar-dark bg-black mynav">
+<nav className="navbar navbar-expand-lg  mynav">
   <div className="container-fluid">
   {/* <BorderColorIcon/> */}
     <NavLink className="navbar-brand" id="g" to="/">Portfolio <Border/></NavLink>
@@ -36,15 +36,15 @@ function Navbar() {
             Project
           </NavLink>
           <ul className="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-            <li><a style={{color:'white'}} className="dropdown-item bg-dark  " id="dp"  href="https://611759d203e9ff52ae21ef4e--gorakh-chat-app.netlify.app/">CHATAPP</a></li>
-            <li><a style={{color:'white'}} className="dropdown-item "  id="dp" href="https://weather-app-gk.herokuapp.com/">WEATHERAPP</a></li>
-            <li><a style={{color:'white'}} className="dropdown-item "  id="dp" href="https://gorakhgupta.github.io/Covid-Tracker/">COVIDTRACKER</a></li>
-            <li><a style={{color:'white'}} className="dropdown-item "  id="dp" href="https://gorakhgupta.github.io/snakeGame/">SNAKEGAME</a></li>
-            <li><a style={{color:'white'}} className="dropdown-item "  id="dp" href="https://gorakhgupta.github.io/PostMaster/">POSTMAN</a></li>
-            <li><a style={{color:'white'}} className="dropdown-item "  id="dp" href="https://gorakhgupta.github.io/netflix/">NETFLIX</a></li>
+            <li><a style={{color:'green'}} className="dropdown-item bg-dark  " id="dp"  href="https://611759d203e9ff52ae21ef4e--gorakh-chat-app.netlify.app/">CHATAPP</a></li>
+            <li><a style={{color:'green'}} className="dropdown-item "  id="dp" href="https://weather-app-gk.herokuapp.com/">WEATHERAPP</a></li>
+            <li><a style={{color:'green'}} className="dropdown-item "  id="dp" href="https://gorakhgupta.github.io/Covid-Tracker/">COVIDTRACKER</a></li>
+            <li><a style={{color:'green'}} className="dropdown-item "  id="dp" href="https://gorakhgupta.github.io/snakeGame/">SNAKEGAME</a></li>
+            <li><a style={{color:'green'}} className="dropdown-item "  id="dp" href="https://gorakhgupta.github.io/PostMaster/">POSTMAN</a></li>
+            <li><a style={{color:'green'}} className="dropdown-item "  id="dp" href="https://gorakhgupta.github.io/netflix/">NETFLIX</a></li>
          
-            <li><a style={{color:'white'}}  className="dropdown-item " id="dp"  href="https://gorakhgupta.github.io/Form-Validation/">FORM-VALIDATION</a></li>
-            <li><a style={{color:'white'}}  className="dropdown-item " id="dp"  href="https://gorakhgupta.github.io/bounce_animation/">BOUNCING_BALL</a></li>
+            <li><a style={{color:'green'}}  className="dropdown-item " id="dp"  href="https://gorakhgupta.github.io/Form-Validation/">FORM-VALIDATION</a></li>
+            <li><a style={{color:'green'}}  className="dropdown-item " id="dp"  href="https://gorakhgupta.github.io/bounce_animation/">BOUNCING_BALL</a></li>
           </ul>
         </li>
         <li className="nav-item">
