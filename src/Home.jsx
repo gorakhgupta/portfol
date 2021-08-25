@@ -11,12 +11,12 @@ function Home() {
 <>
 <div className="home pt-4">
    <div className="row">
-       <div className="col-md-8 mx-auto">
+       <div className="col-md-8 mx-auto ">
            <div className="row">
-               <div className="col-md-6 mx-auto">
+               <div className="col-md-6 mx-auto ">
            {/* //Left */}
-       <div className="head mt-3">
-         <h1> Hi, This is Gorakh . <span style={{color:'red'}}>MERN  STACK  DEVELOPER .</span> </h1>
+       <div className="head mt-5">
+         <h1> Hi, This is Gorakh . <span style={{color:'red'}}> <br /> A MERN  STACK  DEVELOPER .</span> </h1>
        </div>
  
          </div>

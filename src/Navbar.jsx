@@ -10,12 +10,14 @@ import Border from '@material-ui/icons/BorderColor';
 function Navbar() {
   return (
 <>
-{/* <h1>NavBar</h1> */}
-<nav className="navbar navbar-expand-lg  mynav">
+
+<nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
   <div className="container-fluid">
-  {/* <BorderColorIcon/> */}
-    <NavLink className="navbar-brand" id="g" to="/">Portfolio <Border/></NavLink>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <NavLink className="navbar-brand" id="g" to="/">Portfolio <Border style={{color:'red',backgroundColor:'red'}}/></NavLink>
+    <button className="navbar-toggler btn-outline-primary " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="menu-btn">
+    <div class="menu-btn__burger"></div>
+  </div>
       <span className="navbar-toggler-icon"></span>
     </button>
     </div>

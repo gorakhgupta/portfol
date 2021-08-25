@@ -26,7 +26,7 @@ function Contact() {
   </div>
   <div className="col-md-6">
  
- YOUR EMAIl : <input type="text" className="form-control" />
+ YOUR EMAIL : <input type="text" className="form-control" />
 
 
  </div>
@@ -61,7 +61,7 @@ function Contact() {
  </div>
  <div className="row">
  <PhoneEnabledIcon style={{fontSize:'80px'}}/>
- <a style={{width:'28%',height:'40px',marginTop:'16px'}} href="tel:1234567890" class="btn btn btn-success">Call Me!</a>
+ <a style={{width:'28%',height:'40px',marginTop:'16px'}} href="tel:9161266942" class="btn btn btn-success">Call Me!</a>
 
 
  </div>
